@@ -1,0 +1,18 @@
+print('-'*36)
+n1 = int(input('digite um numero para ter sua tabuada: '))
+print('o resultado de {:2} x 1 e:'.format(n1),(n1*1))
+print('o resultado de {:2} x 2 e:'.format(n1),(n1*2))
+print('o resultado de {:2} x 3 e:'.format(n1),(n1*3))
+print('o resultado de {:2} x 4 e:'.format(n1),(n1*4))
+print('o resultado de {:2} x 5 e:'.format(n1),(n1*5))
+print('o resultado de {:2} x 6 e:'.format(n1),(n1*6))
+print('o resultado de {:2} x 7 e:'.format(n1),(n1*7))
+print('o resultado de {:2} x 8 e:'.format(n1),(n1*8))
+print('o resultado de {:2} x 9 e:'.format(n1),(n1*9))
+print('o resultado de {} x 10 e:'.format(n1),(n1*10))
+print('-'*36)
+#outra forma de fazer
+
+n = int(input('digite seu numero para obter a tabuada: '))
+print('{} x {} = {}'.format(n, 1, n*1))
+print('{} x {} = {}'.format(n, 2, n*2))

@@ -1,0 +1,12 @@
+#algortimo de verdadeiro e falso 
+n = input('digite algu ')
+print('o tipo primitivo desse valor e ', type(n))
+print('so tem espaços?', n.isspace())
+print('so tem numeros?', n.isnumeric())
+print('so tem decimal?', n.isdecimal())
+print('e escritivel?', n.isprintable())
+print('e alfabetico?', n.isalpha())
+print('e alfanumerico?', n.isalnum())
+print('esta em maiusculo?', n.isupper())
+print('esta em minusculo?', n.islower())
+print('esta em maiusculo e minusculo?', n.istitle())
